@@ -444,6 +444,12 @@ body {
 		order: 0;
 	}
 
+	/* Btn */
+
+	.link-button{
+		display: grid;
+	}
+
 	/* General */
 
 	.section {
@@ -469,7 +475,6 @@ body {
 	/* Project page */
 
 	.project-details__desc {
-		margin-bottom: 20px;
 		font-size: 22px;
 	}
 
@@ -496,7 +501,10 @@ body {
 	/* Social */
 
 	.social {
-		column-gap: 20px;
+		flex-wrap: wrap;
+		justify-content: flex-end;
+		max-width: 100px;
+		gap: 15px;
 	}
 
 	.social__item {
